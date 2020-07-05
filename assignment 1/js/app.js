@@ -1,10 +1,10 @@
 (function (){
 	'use strict';
-	angular.module("LunchCheck",[]).contoller("LunchCheckController",LunchCheckController);
+	angular.module("LunchCheck",[]).controller("LunchCheckController",LunchCheckController);
 	LunchCheckController.$inject=[$scope];
 	function LunchCheckController($scope){
 	$scope.message="";
-	$scope.str=""
+	$scope.str="";
 	$scope.checkf=function(){
 		var arr=$scope.str.split(',');
 		$scope.result=arr.filter(arr=> arr.trim.length > 0)
