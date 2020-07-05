@@ -23,7 +23,7 @@
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control" ng-Class = "{'emptybox':alen === 0,
             'enjoybox':alen >0 && alen <4,
-          'toomuchbox':alen > 3}">
+          'toomuchbox':alen > 3}" ng-model="str">
          </div>
          <div class="form-group">
              <button class="btn btn-default" ng-click="chekf();">Check If Too Much</button>
