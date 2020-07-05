@@ -6,8 +6,7 @@
     <style>
       .message { font-size: 1.3em; font-weight: bold; }
     </style>
-     <link rel="stylesheet"
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
    <script src="js/angular.min.js"></script>
@@ -20,8 +19,7 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
          <div  class="form-group">
              <input id="lunch-menu" type="text"
-             placeholder="list comma separated dishes you usually have
-for lunch"
+             placeholder="list comma separated dishes you usually have for lunch"
              class="form-control" ng-model="stringarr"
              ng-Class = "{'emptybox':arrlength === 0,
             'enjoybox':arrlength >0 && arrlength <4,
@@ -29,8 +27,7 @@ for lunch"
              <br>
          </div>
          <div class="form-group">
-             <button class="btn btn-default"
-ng-click="checkstr();">Check If Too Much</button>
+             <button class="btn btn-default" ng-click="checkstr();">Check If Too Much</button>
          </div>
          <div class="form-group message">
            <!-- Your message can go here. -->
@@ -42,4 +39,3 @@ ng-click="checkstr();">Check If Too Much</button>
 
    </body>
 </html>
-
