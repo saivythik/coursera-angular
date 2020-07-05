@@ -1,0 +1,19 @@
+.emptybox{
+    border: 1px solid blueviolet;
+    
+}
+.enjoybox{
+    border:1px solid green;
+}
+.toomuchbox{
+    border:1px solid red;
+}
+.empty{
+    color:blueviolet;
+}
+.enjoy{
+    color:green;
+}
+.toomuch{
+    color:red;
+}
