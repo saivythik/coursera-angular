@@ -26,9 +26,7 @@ function mycontroller($scope){
   //      return 2;
   //   }
   // }
-  $scope.messages = $scope.arrlength ? $scope.arrlength >3 ? 'Too
-much!' : 'Enjoy!' : 'Please enter data first';
+  $scope.messages = $scope.arrlength ? $scope.arrlength >3 ? 'Too much!' : 'Enjoy!' : 'Please enter data first';
   };
 }
 })();
-
